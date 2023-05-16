@@ -1,5 +1,7 @@
 
-import subprocess, urllib2, sys
+import subprocess
+import urllib.request
+import sys
 
 if len(sys.argv[2]) != 0:
     ip = sys.argv[2]
