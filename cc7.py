@@ -9,10 +9,10 @@ else:
     print("\x1b[0;31mIncorrect Usage!")
     print("\x1b[0;32mUsage: python " + sys.argv[0] + " <BOTNAME.C> <IPADDR> \x1b[0m")
     exit(1)
-    
+
 bot = sys.argv[1]
 
-yourafag = raw_input("Get Arch's? Y/n:")
+yourafag = input("Get Arch's? Y/n:")
 if yourafag.lower() == "y":
     get_assailant = True
 else:
